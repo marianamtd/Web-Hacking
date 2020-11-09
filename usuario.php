@@ -22,4 +22,4 @@ class usuario{
 
 }
 $carlos = new usuario ();
-$carlos -> mostrarnome();
+echo serialize($carlos);
